@@ -28,5 +28,11 @@
 		int number=7;
 		Assert.assertFalse(BinarySearch.check(array, number));
 	}
+	@ Test
+	public void test4() {
+		int[] array = {};
+		int number=7;
+		Assert.assertFalse(BinarySearch.check(array, number));
+	}
 	
 	}
